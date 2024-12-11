@@ -85,7 +85,7 @@
 <body>
     <div class="signin-container">
         <h2>Signin Form</h2>
-        <form action="/signin" method="POST">
+        <form action="{{ url('/signin') }}" method="POST">
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
